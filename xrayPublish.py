@@ -52,7 +52,7 @@ Y_test=Y[numberForTrain:]
 weight=np.random.rand(dataset.shape[1],1)*(10**-5)
 bias=0.
 stringLearning_rate="The learning rate is "
-learning_rate=float(input())
+learning_rate=float(input(stringLearning_rate))
 stringTrainLoop="The number of iterations is "
 train_loop=int(input(stringTrainLoop))
 #Activation function
